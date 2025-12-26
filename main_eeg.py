@@ -11,13 +11,13 @@ Y = min_max_scaler.fit_transform(Y1)
 # Y = mylorenz(30)
 X1 = Y.copy()
 X=X1
-delta=0.5
+memory_factor=0.5
 
 m = X.shape[0]
 n = X.shape[1]
 
 for i in range(1,m):
-    X[i,]=X1[i,:]+delta*(X[i-1,:])
+    X[i,]=X1[i,:]+memory_factor*(X[i-1,:])
 
 Accurate_predictions = 0
 ii = 0
