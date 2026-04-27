@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/PNG/icon_close.png</file>
+        <file>icon/PNG/icon_maximize.png</file>
+        <file>icon/PNG/icon_minimize.png</file>
+        <file>icon/PNG/icon_title _bar_background.png</file>
+        <file>icon/PNG/icon_adjust_lower.png</file>
+        <file>icon/PNG/icon_adjust_upper.png</file>
+        <file>icon/PNG/icon_adjust_lower_reverse.png</file>
+        <file>icon/PNG/icon_adjust_upper_reverse.png</file>
+        <file>icon/PNG/icon_close_pressed.png</file>
+        <file>icon/PNG/icon_maximize_pressed.png</file>
+        <file>icon/PNG/icon_minimize_pressed.png</file>
+        <file>icon/PNG/icon_selectable.png</file>
+        <file>icon/PNG/icon_selectable_pressed.png</file>
+    </qresource>
+</RCC>

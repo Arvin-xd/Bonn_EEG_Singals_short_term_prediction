@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ControlDialog</class>
+ <widget class="QDialog" name="ControlDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>303</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Adobe Arabic</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_ut_board_ok">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>16</y>
+     <width>93</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #C1DFB8;       /* 背景色 */
+border-style: solid;             /* 边框风格 */
+border-width: 3px;               /* 边框宽度 */
+border-radius: 46px;             /* 边框圆角 */
+border-color: #009844;           /* 边框颜色 */
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_pulse">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>283</y>
+     <width>283</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HarmonyOS Sans SC</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton {
+                font-family: HarmonyOS Sans SC;
+                font:bold 32px;
+                color: #044288;                
+				background-color: qlineargradient(spread:pad, x1:0, y1:0.65, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 0));
+              	border-color: #044288;           /* 边框颜色 */
+                border-width: 2px;               /* 边框宽度 */               
+				border-radius: 45px;             /* 边框圆角 */
+                border-style: solid;             /* 边框风格 */
+            }
+            
+            QPushButton:hover {
+                font:bold 34px;
+            }
+            
+            QPushButton:pressed {
+                color: white;
+                font:bold 36px;
+                background-color: rgb(24, 82, 154);
+            }
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>PULSE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>35</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HarmonyOS Sans SC</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background: transparent</string>
+   </property>
+   <property name="text">
+    <string>UT
+Board OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>283</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HarmonyOS Sans SC</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton {
+                font-family: HarmonyOS Sans SC;
+                font:bold 32px;
+                color: #8F1E23;                
+				background-color: qlineargradient(spread:pad, x1:0, y1:0.65, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 0));
+              	border-color: #8F1E23;           /* 边框颜色 */
+                border-width: 2px;               /* 边框宽度 */               
+				border-radius: 45px;             /* 边框圆角 */
+                border-style: solid;             /* 边框风格 */
+            }
+            
+            QPushButton:hover {
+                font:bold 34px;
+            }
+            
+            QPushButton:pressed {
+                color: white;
+                font:bold 36px;
+                background-color: #8F1E23;
+            }
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>STOP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>28</y>
+     <width>270</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff;       /* 背景色 */
+border-style: solid;             /* 边框风格 */
+border-width: 3px;               /* 边框宽度 */
+border-radius: 37px;             /* 边框圆角 */
+border-color: #009844;           /* 边框颜色 */
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>155</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HarmonyOS Sans SC</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background: transparent</string>
+   </property>
+   <property name="text">
+    <string>Automatic
+Cycling</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>148</y>
+     <width>270</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff;       /* 背景色 */
+border-style: solid;             /* 边框风格 */
+border-width: 3px;               /* 边框宽度 */
+border-radius: 37px;             /* 边框圆角 */
+border-color: #FAED00;           /* 边框颜色 */
+
+</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_automatic_cycling">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>138</y>
+     <width>93</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #FFFCE2;       /* 背景色 */
+border-style: solid;             /* 边框风格 */
+border-width: 3px;               /* 边框宽度 */
+border-radius: 46px;             /* 边框圆角 */
+border-color: #FAED00;           /* 边框颜色 */
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>pushButton_pulse</zorder>
+  <zorder>pushButton_exit</zorder>
+  <zorder>label_1</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_automatic_cycling</zorder>
+  <zorder>label_ut_board_ok</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

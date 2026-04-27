@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdjustWidget</class>
+ <widget class="QWidget" name="AdjustWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>234</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_shading" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>63</y>
+     <width>234</width>
+     <height>82</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffffff;       /* 背景色 */
+border-style: solid;             /* 边框风格 */
+border-width: 1px;               /* 边框宽度 */
+border-radius: 15px;             /* 边框圆角 */
+border-color:rgba(135,165,201,70);           /* 边框颜色 */</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_adjustUpper">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>14</y>
+      <width>27</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+              border-image: url(:/icon/PNG/icon_adjust_upper.png);
+			  background:transparent;
+			  border-width: 1px;               /* 边框宽度 */
+            }
+            
+            QPushButton:hover {
+             
+            }
+            
+            QPushButton:pressed {
+				border-image: url(:/icon/PNG/icon_adjust_upper_reverse.png);
+                border-style:inset;
+            }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_adjustLower">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>44</y>
+      <width>27</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+              border-image: url(:/icon/PNG/icon_adjust_lower.png);
+			  background:transparent;
+			  border-width: 1px;               /* 边框宽度 */
+            }
+            
+            QPushButton:hover {
+             
+            }
+            
+            QPushButton:pressed {
+				border-image: url(:/icon/PNG/icon_adjust_lower_reverse.png);
+                border-style:inset;
+            }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_paramSelect">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>18</y>
+      <width>168</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background:transparent;
+   	font-family: HarmonyOS Sans SC;
+    font:bold 20px;
+	color:black;
+	border:none;
+}
+
+QComboBox::drop-down {	
+	border-style:none;
+	subcontrol-origin: padding;
+	subcontrol-position: center right; /* 位置 */
+	width: 46px; /* 宽度 */
+	/* 其他样式 */
+}
+
+QComboBox::down-arrow{
+	image: url(:/icon/PNG/icon_selectable.png); /* 图标 */
+	width: 16px; /* 宽度 */
+	height:16px
+	/* 其他样式 */
+}
+
+QComboBox::down-arrow:hover{
+	image: url(:/icon/PNG/icon_selectable.png); /* 图标 */
+	width: 20px; /* 宽度 */
+	height:20px
+	/* 其他样式 */
+}
+
+QComboBox::down-arrow:pressed{
+	image: url(:/icon/PNG/icon_selectable_pressed.png); /* 图标 */
+	width: 20px; /* 宽度 */
+	height:20px
+	/* 其他样式 */
+}
+
+QComboBox QAbstractItemView{
+	outline: 0px; /* 去掉虚线 */
+	border-radius:0px;
+	background-color: rgb(237, 242, 255); /* 背景颜色 */
+   	font-family: HarmonyOS Sans SC;
+	font:18px;
+}
+
+QComboBox QAbstractItemView:item {
+	height: 40px; /* 项高度 */
+	/* 其他样式 */
+   	font-family: HarmonyOS Sans SC;
+    font:bold 22px;
+}
+
+QComboBox QAbstractItemView::item:hover {
+	color:#FFFFFF;
+	background-color: rgb(24, 82, 154); /* 悬浮背景色 */
+	/* 其他样式 */
+}
+
+QComboBox QAbstractItemView::item:selected {
+	color:#FFFFFF;
+	background-color: rgb(24, 82, 154); /* 选中背景色 */
+	/* 其他样式 */
+}</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>234</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HarmonyOS Sans SC Medium</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: transparent</string>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
